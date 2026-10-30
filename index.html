@@ -1,1 +1,45 @@
 
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Copilot AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Support Copilot AI</h1>
+        <p>Grand Mobile Support жүйесі</p>
+    </header>
+
+    <main class="container">
+
+        <h2>Шағымды талдау</h2>
+
+        <label for="complaint">Ойыншының хабарламасы:</label>
+
+        <textarea
+            id="complaint"
+            placeholder="Шағым мәтінін осында жазыңыз..."
+        ></textarea>
+
+        <button id="analyzeBtn">
+            Шағымды талдау
+        </button>
+
+        <section id="result" class="result">
+            <h3>Талдау нәтижесі</h3>
+            <p id="category">Әзірге талдау жоқ</p>
+            <p id="priority"></p>
+            <p id="recommendation"></p>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
+
